@@ -17,7 +17,6 @@ Mongoid.configure do |config|
       }
     },
     options: {
-      use_activesupport_time_zone: true
     }
   )
 end
