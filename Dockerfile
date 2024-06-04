@@ -1,5 +1,7 @@
 FROM ruby:3.2.2-alpine
-LABEL maintainer="David Papp <david@ghostmonitor.com>"
+LABEL maintainer="Ajaya Agrawalla <ajaya@clearstack.io>"
+LABEL org.opencontainers.image.source=https://github.com/clearstackio/errbit
+
 
 ENV RUBYGEMS_VERSION=3.5.11
 ENV BUNDLER_VERSION=2.5.11

@@ -11,7 +11,7 @@ services:
     environment:
       - PORT=8080
       - RACK_ENV=production
-      - MONGO_URL=mongodb://errbit_mongo:27017/errbit
+      - MONGO_URL=mongodb://errbit_mongo:27017/errbit_production
   errbit_mongo:
     restart: always
     image: mongo:7.0.11
