@@ -1,10 +1,10 @@
-FROM ruby:3.2.2-alpine
+FROM ruby:3.3.3-alpine
 LABEL maintainer="Ajaya Agrawalla <ajaya@clearstack.io>"
 LABEL org.opencontainers.image.source=https://github.com/clearstackio/errbit
 
 
-ENV RUBYGEMS_VERSION=3.5.11
-ENV BUNDLER_VERSION=2.5.11
+ENV RUBYGEMS_VERSION=3.5.13
+ENV BUNDLER_VERSION=2.5.13
 
 WORKDIR /app
 
